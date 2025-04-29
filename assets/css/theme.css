@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-serif: 'Anek Gujarati';
+  --font-sans: 'Noto Sans', sans-serif;
+  --font-script: 'Oleo Script', cursive;
+  --breakpoint-3xl: 1920px;
+}
+
+:root {
+  --ui-bg: #edf3f2;
+  --ui-primary: var(--color-indigo-600);
+  --ui-secondary: var(--color-emerald-400);
+  --ui-accent: var(--color-orange-500);
+}
+
+.dark {
+  --ui-bg: #001111;
+  --ui-primary: var(--color-indigo-500);
+  --ui-secondary: var(--color-emerald-400);
+  --ui-accent: var(--color-orange-500);
+}
+
+@import "./main.css";
